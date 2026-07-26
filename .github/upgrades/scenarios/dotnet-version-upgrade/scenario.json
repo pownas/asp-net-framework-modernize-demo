@@ -1,4 +1,4 @@
-{
+﻿{
   "scenarioId": "dotnet-version-upgrade",
   "operationId": "d4b6a6f3-8e4a-4377-89c2-ac435f340614",
   "description": "Upgrade .NET projects to newer .NET versions, including guidance on current release status, support lifecycle (LTS/STS), and recommended upgrade targets.",
@@ -11,9 +11,9 @@
       "02-dependencies-modernize": "Completed",
       "03-dbcontext-migrate": "Completed",
       "04-controllers-migrate": "Completed",
+      "05-views-migrate": "Completed",
       "06-authentication-reconfig": "Completed",
-      "07-ef-migrations-complete": "InProgress",
-      "05-views-migrate": "InProgress"
+      "07-ef-migrations-complete": "Completed"
     }
   },
   "folderPath": ""
