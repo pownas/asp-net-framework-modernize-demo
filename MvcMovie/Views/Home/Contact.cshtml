@@ -1,17 +1,18 @@
 ﻿@{
     ViewBag.Title = "Contact";
 }
-<h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
 
-<address>
-    One Microsoft Way<br />
-    Redmond, WA 98052-6399<br />
-    <abbr title="Phone">P:</abbr>
-    425.555.0100
-</address>
+<h2>Contact Us</h2>
 
-<address>
-    <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
-    <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
-</address>
+<div class="alert alert-info" role="alert">
+    <h4>Contact Information</h4>
+    <p>
+        Email: <a href="mailto:info@movieapp.com">info@movieapp.com</a><br />
+        Phone: (555) 123-4567<br />
+        Address: 123 Movie Lane, Film City, FC 12345
+    </p>
+</div>
+
+<p>
+    <a asp-controller="Home" asp-action="Index" class="btn btn-secondary">Back to Home</a>
+</p>

@@ -1,21 +1,24 @@
-﻿using System.Web;
-using System.Web.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 
 namespace MvcMovie.Controllers
 {
+    /// <summary>
+    /// HelloWorld Controller - Example/Test
+    /// Migrated from: MvcMovie\Controllers\HelloWorldController.cs
+    /// </summary>
     public class HelloWorldController : Controller
     {
-        public ActionResult Index()
+        // GET: /HelloWorld/
+        public string Index()
         {
-            return View();
+            return "This is my default action...";
         }
 
-        public ActionResult Welcome(string name, int numTimes = 1)
+        // GET: /HelloWorld/Welcome
+        public string Welcome(string name, int numTimes = 1)
         {
-            ViewBag.Message = "Hello " + name;
-            ViewBag.NumTimes = numTimes;
-
-            return View();
+            return
+                $"Hello {name}, NumTimes is: {numTimes}";
         }
     }
 }

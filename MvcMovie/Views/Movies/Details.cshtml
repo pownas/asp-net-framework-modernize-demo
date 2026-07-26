@@ -4,47 +4,18 @@
     ViewBag.Title = "Details";
 }
 
-<h2>Details</h2>
+<h2>Movie Details</h2>
 
-<div>
-    <h4>Movie</h4>
-    <hr />
-    <dl class="dl-horizontal">
-        <dt>
-            @Html.DisplayNameFor(model => model.Title)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.Title)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.ReleaseDate)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.ReleaseDate)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.Genre)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.Genre)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.Price)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.Price)
-        </dd>
-
-    </dl>
+<div class="card">
+    <div class="card-body">
+        <h5 class="card-title">@Model.Title</h5>
+        <p class="card-text">
+            <strong>Release Date:</strong> @Model.ReleaseDate.ToString("yyyy-MM-dd")<br />
+            <strong>Genre:</strong> @Model.Genre<br />
+            <strong>Price:</strong> $@Model.Price
+        </p>
+        <a asp-controller="Movies" asp-action="Edit" asp-route-id="@Model.ID" class="btn btn-warning">Edit</a>
+        <a asp-controller="Movies" asp-action="Delete" asp-route-id="@Model.ID" class="btn btn-danger">Delete</a>
+        <a asp-controller="Movies" asp-action="Index" class="btn btn-secondary">Back to List</a>
+    </div>
 </div>
-<p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
-    @Html.ActionLink("Back to List", "Index")
-</p>

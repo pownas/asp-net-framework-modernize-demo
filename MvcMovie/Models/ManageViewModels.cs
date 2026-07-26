@@ -1,32 +1,22 @@
-﻿using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using Microsoft.AspNet.Identity;
-using Microsoft.Owin.Security;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace MvcMovie.Models
 {
-    public class IndexViewModel
+    public class ManageViewModel
     {
+        public string Email { get; set; }
         public bool HasPassword { get; set; }
-        public IList<UserLoginInfo> Logins { get; set; }
         public string PhoneNumber { get; set; }
         public bool TwoFactor { get; set; }
-        public bool BrowserRemembered { get; set; }
     }
 
-    public class ManageLoginsViewModel
+    public class ChangePasswordViewModel
     {
-        public IList<UserLoginInfo> CurrentLogins { get; set; }
-        public IList<AuthenticationDescription> OtherLogins { get; set; }
-    }
+        [Required]
+        [DataType(DataType.Password)]
+        [Display(Name = "Current password")]
+        public string OldPassword { get; set; }
 
-    public class FactorViewModel
-    {
-        public string Purpose { get; set; }
-    }
-
-    public class SetPasswordViewModel
-    {
         [Required]
         [StringLength(100, ErrorMessage = "The {0} must be at least {2} characters long.", MinimumLength = 6)]
         [DataType(DataType.Password)]
@@ -39,13 +29,8 @@ namespace MvcMovie.Models
         public string ConfirmPassword { get; set; }
     }
 
-    public class ChangePasswordViewModel
+    public class SetPasswordViewModel
     {
-        [Required]
-        [DataType(DataType.Password)]
-        [Display(Name = "Current password")]
-        public string OldPassword { get; set; }
-
         [Required]
         [StringLength(100, ErrorMessage = "The {0} must be at least {2} characters long.", MinimumLength = 6)]
         [DataType(DataType.Password)]
@@ -78,9 +63,33 @@ namespace MvcMovie.Models
         public string PhoneNumber { get; set; }
     }
 
+    public class ManageLoginsViewModel
+    {
+        public IList<UserLoginInfo> CurrentLogins { get; set; }
+    }
+
+    public class FactorViewModel
+    {
+        public string Purpose { get; set; }
+    }
+
     public class ConfigureTwoFactorViewModel
     {
         public string SelectedProvider { get; set; }
-        public ICollection<System.Web.Mvc.SelectListItem> Providers { get; set; }
+        public ICollection<SelectListItem> Providers { get; set; }
+    }
+
+    // Simple definitions for supporting types
+    public class UserLoginInfo
+    {
+        public string LoginProvider { get; set; }
+        public string ProviderKey { get; set; }
+    }
+
+    public class SelectListItem
+    {
+        public string Value { get; set; }
+        public string Text { get; set; }
+        public bool Selected { get; set; }
     }
 }
