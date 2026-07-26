@@ -37,26 +37,20 @@
     <PackageReference Include="Microsoft.AspNetCore.Authentication.MicrosoftAccount" Version="10.0.10" />
 
     <!-- Application Insights for ASP.NET Core -->
-    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.23.0" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="3.1.2" />
 
     <!-- JSON support -->
     <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
 
     <!-- Client-side libraries (compatible with .NET 10) -->
-    <PackageReference Include="bootstrap" Version="5.3.8" />
-    <PackageReference Include="jQuery" Version="4.0.0" />
-    <PackageReference Include="jQuery.Validation" Version="1.19.3" />
+    <!--<PackageReference Include="bootstrap" Version="5.3.8" />
+    <PackageReference Include="jQuery" Version="3.7.1" />-->
+    <PackageReference Include="jQuery.Validation" Version="1.21.0" />
     <PackageReference Include="jQuery.Validation.Globalize" Version="1.1.0" />
-    <PackageReference Include="jquery-globalize" Version="1.0.0" />
-    <PackageReference Include="Modernizr" Version="2.6.2" />
-    <PackageReference Include="Respond" Version="1.2.0" />
-    <PackageReference Include="WebGrease" Version="1.5.2" />
-    <PackageReference Include="cldrjs" Version="0.4.1" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="wwwroot\lib\bootstrap\dist\js\" />
-    <Folder Include="wwwroot\lib\bootstrap\dist\css\" />
+    <PackageReference Include="jquery-globalize" Version="1.4.2" />
+    <PackageReference Include="Modernizr" Version="2.8.3" />
+    <PackageReference Include="WebGrease" Version="1.6.0" />
+    <PackageReference Include="cldrjs" Version="0.5.1" />
   </ItemGroup>
 
 </Project>
