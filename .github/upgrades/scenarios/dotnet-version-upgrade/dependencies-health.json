@@ -1,0 +1,1884 @@
+{
+  "packageGovernance": {
+    "totalDistinctPackages": 35,
+    "totalVersionDriftInstances": 0,
+    "targetFramework": "net10.0",
+    "packages": [
+      {
+        "name": "Antlr",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": true,
+        "description": "Needs to be replaced with Replace with new package Antlr4=4.6.6",
+        "versions": [
+          {
+            "version": "3.4.1.9004",
+            "projects": [
+              "MvcMovie"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "bootstrap",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "3.4.1",
+            "projects": [
+              "MvcMovie"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "cldrjs",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "0.4.1",
+            "projects": [
+              "MvcMovie"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "EntityFramework",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "6.5.2",
+        "isCompatible": true,
+        "description": "NuGet package upgrade is recommended",
+        "versions": [
+          {
+            "version": "6.1.3",
+            "projects": [
+              "MvcMovie"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": "6.5.2"
+        }
+      },
+      {
+        "name": "jQuery",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": false,
+        "description": "NuGet package is deprecated",
+        "versions": [
+          {
+            "version": "3.5.0",
+            "projects": [
+              "MvcMovie"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "jquery-globalize",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "1.0.0",
+            "projects": [
+              "MvcMovie"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "jQuery.Validation",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "1.19.3",
+            "projects": [
+              "MvcMovie"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "jQuery.Validation.Globalize",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "1.1.0",
+            "projects": [
+              "MvcMovie"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "Microsoft.ApplicationInsights",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": false,
+        "description": "NuGet package is deprecated",
+        "versions": [
+          {
+            "version": "2.2.0",
+            "projects": [
+              "MvcMovie"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "Microsoft.ApplicationInsights.Agent.Intercept",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": false,
+        "description": "NuGet package is incompatible",
+        "versions": [
+          {
+            "version": "2.0.6",
+            "projects": [
+              "MvcMovie"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "Microsoft.ApplicationInsights.DependencyCollector",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "2.23.0",
+        "isCompatible": false,
+        "description": "NuGet package is incompatible",
+        "versions": [
+          {
+            "version": "2.2.0",
+            "projects": [
+              "MvcMovie"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": "2.23.0"
+        }
+      },
+      {
+        "name": "Microsoft.ApplicationInsights.PerfCounterCollector",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "2.23.0",
+        "isCompatible": false,
+        "description": "NuGet package is incompatible",
+        "versions": [
+          {
+            "version": "2.2.0",
+            "projects": [
+              "MvcMovie"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": "2.23.0"
+        }
+      },
+      {
+        "name": "Microsoft.AspNet.Identity.Core",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": false,
+        "description": "NuGet package is incompatible",
+        "versions": [
+          {
+            "version": "2.2.4",
+            "projects": [
+              "MvcMovie"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "Microsoft.AspNet.Identity.EntityFramework",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": false,
+        "description": "NuGet package is incompatible",
+        "versions": [
+          {
+            "version": "2.2.1",
+            "projects": [
+              "MvcMovie"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "Microsoft.AspNet.Identity.Owin",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": false,
+        "description": "NuGet package is incompatible",
+        "versions": [
+          {
+            "version": "2.2.4",
+            "projects": [
+              "MvcMovie"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "Microsoft.AspNet.Mvc",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": true,
+        "description": "NuGet package functionality is included with framework reference",
+        "versions": [
+          {
+            "version": "5.2.3",
+            "projects": [
+              "MvcMovie"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "Microsoft.AspNet.Razor",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": true,
+        "description": "NuGet package functionality is included with framework reference",
+        "versions": [
+          {
+            "version": "3.2.3",
+            "projects": [
+              "MvcMovie"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "Microsoft.AspNet.Web.Optimization",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": false,
+        "description": "NuGet package is incompatible",
+        "versions": [
+          {
+            "version": "1.1.3",
+            "projects": [
+              "MvcMovie"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "Microsoft.AspNet.WebPages",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": true,
+        "description": "NuGet package functionality is included with framework reference",
+        "versions": [
+          {
+            "version": "3.2.3",
+            "projects": [
+              "MvcMovie"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "Microsoft.jQuery.Unobtrusive.Validation",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": false,
+        "description": "NuGet package is deprecated",
+        "versions": [
+          {
+            "version": "3.2.3",
+            "projects": [
+              "MvcMovie"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "Microsoft.Owin",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": false,
+        "description": "NuGet package is incompatible",
+        "versions": [
+          {
+            "version": "4.2.2",
+            "projects": [
+              "MvcMovie"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "Microsoft.Owin.Host.SystemWeb",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": false,
+        "description": "NuGet package is incompatible",
+        "versions": [
+          {
+            "version": "3.0.1",
+            "projects": [
+              "MvcMovie"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "Microsoft.Owin.Security",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": false,
+        "description": "NuGet package is incompatible",
+        "versions": [
+          {
+            "version": "3.0.1",
+            "projects": [
+              "MvcMovie"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "Microsoft.Owin.Security.Cookies",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": false,
+        "description": "Replace with Microsoft.AspNetCore.Authentication.Cookies: Use AddAuthentication().AddCookie() in Startup; adjust cookie options",
+        "versions": [
+          {
+            "version": "3.0.1",
+            "projects": [
+              "MvcMovie"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "Microsoft.Owin.Security.Facebook",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": false,
+        "description": "NuGet package is incompatible",
+        "versions": [
+          {
+            "version": "3.0.1",
+            "projects": [
+              "MvcMovie"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "Microsoft.Owin.Security.Google",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": false,
+        "description": "NuGet package is incompatible",
+        "versions": [
+          {
+            "version": "3.0.1",
+            "projects": [
+              "MvcMovie"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "Microsoft.Owin.Security.MicrosoftAccount",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": false,
+        "description": "NuGet package is incompatible",
+        "versions": [
+          {
+            "version": "3.0.1",
+            "projects": [
+              "MvcMovie"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "Microsoft.Owin.Security.OAuth",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": false,
+        "description": "Replace with Microsoft.AspNetCore.Authentication.JwtBearer: Use JWT Bearer for token validation; adopt IdentityServer or Azure AD for issuing tokens",
+        "versions": [
+          {
+            "version": "3.0.1",
+            "projects": [
+              "MvcMovie"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "Microsoft.Owin.Security.Twitter",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": false,
+        "description": "NuGet package is incompatible",
+        "versions": [
+          {
+            "version": "3.0.1",
+            "projects": [
+              "MvcMovie"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "Microsoft.Web.Infrastructure",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": true,
+        "description": "NuGet package functionality is included with framework reference",
+        "versions": [
+          {
+            "version": "1.0.0.0",
+            "projects": [
+              "MvcMovie"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "Modernizr",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "2.6.2",
+            "projects": [
+              "MvcMovie"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "Newtonsoft.Json",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "13.0.4",
+        "isCompatible": true,
+        "description": "NuGet package upgrade is recommended",
+        "versions": [
+          {
+            "version": "13.0.1",
+            "projects": [
+              "MvcMovie"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": "13.0.4"
+        }
+      },
+      {
+        "name": "Owin",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": false,
+        "description": "NuGet package is incompatible",
+        "versions": [
+          {
+            "version": "1.0",
+            "projects": [
+              "MvcMovie"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "Respond",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "1.2.0",
+            "projects": [
+              "MvcMovie"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "WebGrease",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "1.5.2",
+            "projects": [
+              "MvcMovie"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      }
+    ]
+  },
+  "projects": [
+    {
+      "name": "MvcMovie",
+      "path": "MvcMovie\\MvcMovie.csproj",
+      "isSdk": false,
+      "currentFrameworks": [
+        "net48"
+      ],
+      "targetFramework": "net10.0",
+      "dependencies": {
+        "packages": [
+          {
+            "name": "Antlr",
+            "version": "3.4.1.9004",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "MvcMovie\\packages.config"
+              }
+            ],
+            "description": "Needs to be replaced with Replace with new package Antlr4=4.6.6",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "bootstrap",
+            "version": "3.4.1",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "MvcMovie\\packages.config"
+              }
+            ],
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "cldrjs",
+            "version": "0.4.1",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "MvcMovie\\packages.config"
+              }
+            ],
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "EntityFramework",
+            "version": "6.1.3",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "MvcMovie\\packages.config"
+              }
+            ],
+            "description": "NuGet package upgrade is recommended",
+            "compatibility": "valid",
+            "recommendedVersion": "6.5.2",
+            "upgrade": {
+              "newVersion": "6.5.2"
+            }
+          },
+          {
+            "name": "jQuery",
+            "version": "3.5.0",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "MvcMovie\\packages.config"
+              }
+            ],
+            "description": "NuGet package is deprecated",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "jQuery.Validation",
+            "version": "1.19.3",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "MvcMovie\\packages.config"
+              }
+            ],
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "jQuery.Validation.Globalize",
+            "version": "1.1.0",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "MvcMovie\\packages.config"
+              }
+            ],
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "jquery-globalize",
+            "version": "1.0.0",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "MvcMovie\\packages.config"
+              }
+            ],
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "Microsoft.ApplicationInsights",
+            "version": "2.2.0",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "MvcMovie\\packages.config"
+              }
+            ],
+            "description": "NuGet package is deprecated",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "Microsoft.ApplicationInsights.Agent.Intercept",
+            "version": "2.0.6",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "MvcMovie\\packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "Microsoft.ApplicationInsights.DependencyCollector",
+            "version": "2.2.0",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "MvcMovie\\packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": "2.23.0",
+            "upgrade": {
+              "newVersion": "2.23.0"
+            }
+          },
+          {
+            "name": "Microsoft.ApplicationInsights.PerfCounterCollector",
+            "version": "2.2.0",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "MvcMovie\\packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": "2.23.0",
+            "upgrade": {
+              "newVersion": "2.23.0"
+            }
+          },
+          {
+            "name": "Microsoft.AspNet.Identity.Core",
+            "version": "2.2.4",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "MvcMovie\\packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "Microsoft.AspNet.Identity.EntityFramework",
+            "version": "2.2.1",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "MvcMovie\\packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "Microsoft.AspNet.Identity.Owin",
+            "version": "2.2.4",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "MvcMovie\\packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "Microsoft.AspNet.Mvc",
+            "version": "5.2.3",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "MvcMovie\\packages.config"
+              }
+            ],
+            "description": "NuGet package functionality is included with framework reference",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "Microsoft.AspNet.Razor",
+            "version": "3.2.3",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "MvcMovie\\packages.config"
+              }
+            ],
+            "description": "NuGet package functionality is included with framework reference",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "Microsoft.AspNet.Web.Optimization",
+            "version": "1.1.3",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "MvcMovie\\packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "Microsoft.AspNet.WebPages",
+            "version": "3.2.3",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "MvcMovie\\packages.config"
+              }
+            ],
+            "description": "NuGet package functionality is included with framework reference",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "Microsoft.jQuery.Unobtrusive.Validation",
+            "version": "3.2.3",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "MvcMovie\\packages.config"
+              }
+            ],
+            "description": "NuGet package is deprecated",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "Microsoft.Owin",
+            "version": "4.2.2",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "MvcMovie\\packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "Microsoft.Owin.Host.SystemWeb",
+            "version": "3.0.1",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "MvcMovie\\packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "Microsoft.Owin.Security",
+            "version": "3.0.1",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "MvcMovie\\packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "Microsoft.Owin.Security.Cookies",
+            "version": "3.0.1",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "MvcMovie\\packages.config"
+              }
+            ],
+            "description": "Replace with Microsoft.AspNetCore.Authentication.Cookies: Use AddAuthentication().AddCookie() in Startup; adjust cookie options",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "Microsoft.Owin.Security.Facebook",
+            "version": "3.0.1",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "MvcMovie\\packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "Microsoft.Owin.Security.Google",
+            "version": "3.0.1",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "MvcMovie\\packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "Microsoft.Owin.Security.MicrosoftAccount",
+            "version": "3.0.1",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "MvcMovie\\packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "Microsoft.Owin.Security.OAuth",
+            "version": "3.0.1",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "MvcMovie\\packages.config"
+              }
+            ],
+            "description": "Replace with Microsoft.AspNetCore.Authentication.JwtBearer: Use JWT Bearer for token validation; adopt IdentityServer or Azure AD for issuing tokens",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "Microsoft.Owin.Security.Twitter",
+            "version": "3.0.1",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "MvcMovie\\packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "Microsoft.Web.Infrastructure",
+            "version": "1.0.0.0",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "MvcMovie\\packages.config"
+              }
+            ],
+            "description": "NuGet package functionality is included with framework reference",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "Modernizr",
+            "version": "2.6.2",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "MvcMovie\\packages.config"
+              }
+            ],
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "Newtonsoft.Json",
+            "version": "13.0.1",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "MvcMovie\\packages.config"
+              }
+            ],
+            "description": "NuGet package upgrade is recommended",
+            "compatibility": "valid",
+            "recommendedVersion": "13.0.4",
+            "upgrade": {
+              "newVersion": "13.0.4"
+            }
+          },
+          {
+            "name": "Owin",
+            "version": "1.0",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "MvcMovie\\packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "Respond",
+            "version": "1.2.0",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "MvcMovie\\packages.config"
+              }
+            ],
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "WebGrease",
+            "version": "1.5.2",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "MvcMovie\\packages.config"
+              }
+            ],
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          }
+        ],
+        "assemblies": [
+          {
+            "name": "Microsoft.AspNet.Identity.Core",
+            "version": "2.0.0.0",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "MvcMovie\\MvcMovie.csproj"
+              }
+            ],
+            "physicalPath": "packages\\Microsoft.AspNet.Identity.Core.2.2.4\\lib\\net45\\Microsoft.AspNet.Identity.Core.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "Microsoft.CSharp",
+            "version": "4.0.0.0",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "MvcMovie\\MvcMovie.csproj"
+              }
+            ],
+            "physicalPath": "C:\\Program Files (x86)\\Reference Assemblies\\Microsoft\\Framework\\.NETFramework\\v4.8\\Microsoft.CSharp.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "Microsoft.Owin.Security.Cookies",
+            "version": "3.0.1.0",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "MvcMovie\\MvcMovie.csproj"
+              }
+            ],
+            "physicalPath": "packages\\Microsoft.Owin.Security.Cookies.3.0.1\\lib\\net45\\Microsoft.Owin.Security.Cookies.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System",
+            "version": "4.0.0.0",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "MvcMovie\\MvcMovie.csproj"
+              }
+            ],
+            "physicalPath": "C:\\Program Files (x86)\\Reference Assemblies\\Microsoft\\Framework\\.NETFramework\\v4.8\\System.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Data",
+            "version": "4.0.0.0",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "MvcMovie\\MvcMovie.csproj"
+              }
+            ],
+            "physicalPath": "C:\\Program Files (x86)\\Reference Assemblies\\Microsoft\\Framework\\.NETFramework\\v4.8\\System.Data.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Drawing",
+            "version": "4.0.0.0",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "MvcMovie\\MvcMovie.csproj"
+              }
+            ],
+            "physicalPath": "C:\\Program Files (x86)\\Reference Assemblies\\Microsoft\\Framework\\.NETFramework\\v4.8\\System.Drawing.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Web.DynamicData",
+            "version": "4.0.0.0",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "MvcMovie\\MvcMovie.csproj"
+              }
+            ],
+            "physicalPath": "C:\\Program Files (x86)\\Reference Assemblies\\Microsoft\\Framework\\.NETFramework\\v4.8\\System.Web.DynamicData.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Web.Entity",
+            "version": "4.0.0.0",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "MvcMovie\\MvcMovie.csproj"
+              }
+            ],
+            "physicalPath": "C:\\Program Files (x86)\\Reference Assemblies\\Microsoft\\Framework\\.NETFramework\\v4.8\\System.Web.Entity.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Web.ApplicationServices",
+            "version": "4.0.0.0",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "MvcMovie\\MvcMovie.csproj"
+              }
+            ],
+            "physicalPath": "C:\\Program Files (x86)\\Reference Assemblies\\Microsoft\\Framework\\.NETFramework\\v4.8\\System.Web.ApplicationServices.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.ComponentModel.DataAnnotations",
+            "version": "4.0.0.0",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "MvcMovie\\MvcMovie.csproj"
+              }
+            ],
+            "physicalPath": "C:\\Program Files (x86)\\Reference Assemblies\\Microsoft\\Framework\\.NETFramework\\v4.8\\System.ComponentModel.DataAnnotations.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Core",
+            "version": "4.0.0.0",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "MvcMovie\\MvcMovie.csproj"
+              }
+            ],
+            "physicalPath": "C:\\Program Files (x86)\\Reference Assemblies\\Microsoft\\Framework\\.NETFramework\\v4.8\\System.Core.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Data.DataSetExtensions",
+            "version": "4.0.0.0",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "MvcMovie\\MvcMovie.csproj"
+              }
+            ],
+            "physicalPath": "C:\\Program Files (x86)\\Reference Assemblies\\Microsoft\\Framework\\.NETFramework\\v4.8\\System.Data.DataSetExtensions.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Xml.Linq",
+            "version": "4.0.0.0",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "MvcMovie\\MvcMovie.csproj"
+              }
+            ],
+            "physicalPath": "C:\\Program Files (x86)\\Reference Assemblies\\Microsoft\\Framework\\.NETFramework\\v4.8\\System.Xml.Linq.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Web",
+            "version": "4.0.0.0",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "MvcMovie\\MvcMovie.csproj"
+              }
+            ],
+            "physicalPath": "C:\\Program Files (x86)\\Reference Assemblies\\Microsoft\\Framework\\.NETFramework\\v4.8\\System.Web.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Web.Extensions",
+            "version": "4.0.0.0",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "MvcMovie\\MvcMovie.csproj"
+              }
+            ],
+            "physicalPath": "C:\\Program Files (x86)\\Reference Assemblies\\Microsoft\\Framework\\.NETFramework\\v4.8\\System.Web.Extensions.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Web.Abstractions",
+            "version": "4.0.0.0",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "MvcMovie\\MvcMovie.csproj"
+              }
+            ],
+            "physicalPath": "C:\\Program Files (x86)\\Reference Assemblies\\Microsoft\\Framework\\.NETFramework\\v4.8\\System.Web.Abstractions.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Web.Routing",
+            "version": "4.0.0.0",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "MvcMovie\\MvcMovie.csproj"
+              }
+            ],
+            "physicalPath": "C:\\Program Files (x86)\\Reference Assemblies\\Microsoft\\Framework\\.NETFramework\\v4.8\\System.Web.Routing.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Xml",
+            "version": "4.0.0.0",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "MvcMovie\\MvcMovie.csproj"
+              }
+            ],
+            "physicalPath": "C:\\Program Files (x86)\\Reference Assemblies\\Microsoft\\Framework\\.NETFramework\\v4.8\\System.Xml.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Configuration",
+            "version": "4.0.0.0",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "MvcMovie\\MvcMovie.csproj"
+              }
+            ],
+            "physicalPath": "C:\\Program Files (x86)\\Reference Assemblies\\Microsoft\\Framework\\.NETFramework\\v4.8\\System.Configuration.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Web.Services",
+            "version": "4.0.0.0",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "MvcMovie\\MvcMovie.csproj"
+              }
+            ],
+            "physicalPath": "C:\\Program Files (x86)\\Reference Assemblies\\Microsoft\\Framework\\.NETFramework\\v4.8\\System.Web.Services.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.EnterpriseServices",
+            "version": "4.0.0.0",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "MvcMovie\\MvcMovie.csproj"
+              }
+            ],
+            "physicalPath": "C:\\Program Files (x86)\\Reference Assemblies\\Microsoft\\Framework\\.NETFramework\\v4.8\\System.EnterpriseServices.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "Microsoft.Web.Infrastructure",
+            "version": "1.0.0.0",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "MvcMovie\\MvcMovie.csproj"
+              }
+            ],
+            "physicalPath": "packages\\Microsoft.Web.Infrastructure.1.0.0.0\\lib\\net40\\Microsoft.Web.Infrastructure.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Net.Http",
+            "version": "4.2.0.0",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "MvcMovie\\MvcMovie.csproj"
+              }
+            ],
+            "physicalPath": "C:\\Program Files (x86)\\Reference Assemblies\\Microsoft\\Framework\\.NETFramework\\v4.8\\System.Net.Http.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Net.Http.WebRequest",
+            "version": "4.0.0.0",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "MvcMovie\\MvcMovie.csproj"
+              }
+            ],
+            "physicalPath": "C:\\Program Files (x86)\\Reference Assemblies\\Microsoft\\Framework\\.NETFramework\\v4.8\\System.Net.Http.WebRequest.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Web.Helpers",
+            "version": "3.0.0.0",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "MvcMovie\\MvcMovie.csproj"
+              }
+            ],
+            "physicalPath": "packages\\Microsoft.AspNet.WebPages.3.2.3\\lib\\net45\\System.Web.Helpers.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Web.Mvc",
+            "version": "5.2.3.0",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "MvcMovie\\MvcMovie.csproj"
+              }
+            ],
+            "physicalPath": "packages\\Microsoft.AspNet.Mvc.5.2.3\\lib\\net45\\System.Web.Mvc.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Web.Optimization",
+            "version": "1.1.0.0",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "MvcMovie\\MvcMovie.csproj"
+              }
+            ],
+            "physicalPath": "packages\\Microsoft.AspNet.Web.Optimization.1.1.3\\lib\\net40\\System.Web.Optimization.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Web.Razor",
+            "version": "3.0.0.0",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "MvcMovie\\MvcMovie.csproj"
+              }
+            ],
+            "physicalPath": "packages\\Microsoft.AspNet.Razor.3.2.3\\lib\\net45\\System.Web.Razor.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Web.WebPages",
+            "version": "3.0.0.0",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "MvcMovie\\MvcMovie.csproj"
+              }
+            ],
+            "physicalPath": "packages\\Microsoft.AspNet.WebPages.3.2.3\\lib\\net45\\System.Web.WebPages.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Web.WebPages.Deployment",
+            "version": "3.0.0.0",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "MvcMovie\\MvcMovie.csproj"
+              }
+            ],
+            "physicalPath": "packages\\Microsoft.AspNet.WebPages.3.2.3\\lib\\net45\\System.Web.WebPages.Deployment.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Web.WebPages.Razor",
+            "version": "3.0.0.0",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "MvcMovie\\MvcMovie.csproj"
+              }
+            ],
+            "physicalPath": "packages\\Microsoft.AspNet.WebPages.3.2.3\\lib\\net45\\System.Web.WebPages.Razor.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "WebGrease",
+            "version": "1.5.2.14234",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "MvcMovie\\MvcMovie.csproj"
+              }
+            ],
+            "physicalPath": "packages\\WebGrease.1.5.2\\lib\\WebGrease.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "Antlr3.Runtime",
+            "version": "3.4.1.9004",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "MvcMovie\\MvcMovie.csproj"
+              }
+            ],
+            "physicalPath": "packages\\Antlr.3.4.1.9004\\lib\\Antlr3.Runtime.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "Newtonsoft.Json",
+            "version": "13.0.0.0",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "MvcMovie\\MvcMovie.csproj"
+              }
+            ],
+            "physicalPath": "C:\\Program Files\\IIS\\Microsoft Web Deploy V3\\Newtonsoft.Json.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "EntityFramework",
+            "version": "6.0.0.0",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "MvcMovie\\MvcMovie.csproj"
+              }
+            ],
+            "physicalPath": "packages\\EntityFramework.6.1.3\\lib\\net45\\EntityFramework.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "EntityFramework.SqlServer",
+            "version": "6.0.0.0",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "MvcMovie\\MvcMovie.csproj"
+              }
+            ],
+            "physicalPath": "packages\\EntityFramework.6.1.3\\lib\\net45\\EntityFramework.SqlServer.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "Microsoft.AspNet.Identity.Owin",
+            "version": "2.0.0.0",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "MvcMovie\\MvcMovie.csproj"
+              }
+            ],
+            "physicalPath": "packages\\Microsoft.AspNet.Identity.Owin.2.2.4\\lib\\net45\\Microsoft.AspNet.Identity.Owin.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "Microsoft.AspNet.Identity.EntityFramework",
+            "version": "2.0.0.0",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "MvcMovie\\MvcMovie.csproj"
+              }
+            ],
+            "physicalPath": "packages\\Microsoft.AspNet.Identity.EntityFramework.2.2.1\\lib\\net45\\Microsoft.AspNet.Identity.EntityFramework.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "Owin",
+            "version": "1.0.0.0",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "MvcMovie\\MvcMovie.csproj"
+              }
+            ],
+            "physicalPath": "packages\\Owin.1.0\\lib\\net40\\Owin.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "Microsoft.Owin",
+            "version": "4.2.2.0",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "MvcMovie\\MvcMovie.csproj"
+              }
+            ],
+            "physicalPath": "MvcMovie\\bin\\Microsoft.Owin.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "Microsoft.Owin.Host.SystemWeb",
+            "version": "3.0.1.0",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "MvcMovie\\MvcMovie.csproj"
+              }
+            ],
+            "physicalPath": "packages\\Microsoft.Owin.Host.SystemWeb.3.0.1\\lib\\net45\\Microsoft.Owin.Host.SystemWeb.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "Microsoft.Owin.Security",
+            "version": "3.0.1.0",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "MvcMovie\\MvcMovie.csproj"
+              }
+            ],
+            "physicalPath": "packages\\Microsoft.Owin.Security.3.0.1\\lib\\net45\\Microsoft.Owin.Security.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "Microsoft.Owin.Security.Facebook",
+            "version": "3.0.1.0",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "MvcMovie\\MvcMovie.csproj"
+              }
+            ],
+            "physicalPath": "packages\\Microsoft.Owin.Security.Facebook.3.0.1\\lib\\net45\\Microsoft.Owin.Security.Facebook.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "Microsoft.Owin.Security.OAuth",
+            "version": "3.0.1.0",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "MvcMovie\\MvcMovie.csproj"
+              }
+            ],
+            "physicalPath": "packages\\Microsoft.Owin.Security.OAuth.3.0.1\\lib\\net45\\Microsoft.Owin.Security.OAuth.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "Microsoft.Owin.Security.Google",
+            "version": "3.0.1.0",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "MvcMovie\\MvcMovie.csproj"
+              }
+            ],
+            "physicalPath": "packages\\Microsoft.Owin.Security.Google.3.0.1\\lib\\net45\\Microsoft.Owin.Security.Google.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "Microsoft.Owin.Security.Twitter",
+            "version": "3.0.1.0",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "MvcMovie\\MvcMovie.csproj"
+              }
+            ],
+            "physicalPath": "packages\\Microsoft.Owin.Security.Twitter.3.0.1\\lib\\net45\\Microsoft.Owin.Security.Twitter.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "Microsoft.Owin.Security.MicrosoftAccount",
+            "version": "3.0.1.0",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "MvcMovie\\MvcMovie.csproj"
+              }
+            ],
+            "physicalPath": "packages\\Microsoft.Owin.Security.MicrosoftAccount.3.0.1\\lib\\net45\\Microsoft.Owin.Security.MicrosoftAccount.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "Microsoft.ApplicationInsights",
+            "version": "2.2.0.0",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "MvcMovie\\MvcMovie.csproj"
+              }
+            ],
+            "physicalPath": "packages\\Microsoft.ApplicationInsights.2.2.0\\lib\\net45\\Microsoft.ApplicationInsights.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "Microsoft.AI.Agent.Intercept",
+            "version": "2.0.6.0",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "MvcMovie\\MvcMovie.csproj"
+              }
+            ],
+            "physicalPath": "packages\\Microsoft.ApplicationInsights.Agent.Intercept.2.0.6\\lib\\net45\\Microsoft.AI.Agent.Intercept.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "Microsoft.AI.DependencyCollector",
+            "version": "2.2.0.0",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "MvcMovie\\MvcMovie.csproj"
+              }
+            ],
+            "physicalPath": "packages\\Microsoft.ApplicationInsights.DependencyCollector.2.2.0\\lib\\net45\\Microsoft.AI.DependencyCollector.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "Microsoft.AI.PerfCounterCollector",
+            "version": "2.2.0.0",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "MvcMovie\\MvcMovie.csproj"
+              }
+            ],
+            "physicalPath": "packages\\Microsoft.ApplicationInsights.PerfCounterCollector.2.2.0\\lib\\net45\\Microsoft.AI.PerfCounterCollector.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "mscorlib",
+            "version": "4.0.0.0",
+            "isTransitive": true,
+            "physicalPath": "C:\\Program Files (x86)\\Reference Assemblies\\Microsoft\\Framework\\.NETFramework\\v4.8\\mscorlib.dll",
+            "compatibility": "valid"
+          }
+        ],
+        "projectReferences": [],
+        "frameworkReferences": []
+      }
+    }
+  ]
+}
