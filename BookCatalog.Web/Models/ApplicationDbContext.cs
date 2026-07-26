@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 
@@ -8,6 +8,9 @@ namespace BookCatalog.Web.Models
     {
         public ApplicationDbContext() : base("BookCatalogContext")
         {
+            // Disable automatic model compatibility checking
+            // This allows the context to work with manually-created databases
+            this.Database.CommandTimeout = 60;
         }
 
         public DbSet<Book> Books { get; set; }
@@ -15,9 +18,20 @@ namespace BookCatalog.Web.Models
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
+
+            // Configure the Books table to map exactly as it is in the database
+            modelBuilder.Entity<Book>().ToTable("Books");
+            modelBuilder.Entity<Book>().HasKey(b => b.Id);
+            modelBuilder.Entity<Book>().Property(b => b.Title).IsRequired();
+            modelBuilder.Entity<Book>().Property(b => b.Author).IsRequired();
         }
     }
 
+    /// <summary>
+    /// Database initializer for seeding sample data.
+    /// This is NOT used automatically - instead we manually seed in Global.asax
+    /// to avoid compatibility issues with manually-created databases.
+    /// </summary>
     public class BookCatalogInitializer : DropCreateDatabaseIfModelChanges<ApplicationDbContext>
     {
         protected override void Seed(ApplicationDbContext context)

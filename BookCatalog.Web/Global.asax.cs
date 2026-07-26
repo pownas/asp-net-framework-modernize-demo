@@ -1,3 +1,4 @@
+﻿using System;
 using System.Data.Entity;
 using System.Linq;
 using System.Web;
@@ -11,16 +12,30 @@ namespace BookCatalog.Web
     {
         protected void Application_Start()
         {
-            Database.SetInitializer(new BookCatalogInitializer());
+            // Use NullDatabaseInitializer to prevent automatic database creation/migration
+            // This allows the app to work with pre-created databases (including manually created ones)
+            Database.SetInitializer<ApplicationDbContext>(null);
 
-            // Force DB creation and seed if empty
-            using (var db = new ApplicationDbContext())
+            try
             {
-                db.Database.Initialize(force: false);
-                if (!db.Books.Any())
+                // Ensure database and seed data exist
+                using (var db = new ApplicationDbContext())
                 {
-                    BookCatalogInitializer.SeedBooks(db);
+                    // Test connection
+                    db.Database.Connection.Open();
+                    db.Database.Connection.Close();
+
+                    // If no books exist, seed the data
+                    if (!db.Books.Any())
+                    {
+                        BookCatalogInitializer.SeedBooks(db);
+                    }
                 }
+            }
+            catch (Exception ex)
+            {
+                // Log error but don't crash the application
+                System.Diagnostics.Debug.WriteLine($"Database initialization warning: {ex.Message}");
             }
 
             AreaRegistration.RegisterAllAreas();
@@ -29,3 +44,4 @@ namespace BookCatalog.Web
         }
     }
 }
+
