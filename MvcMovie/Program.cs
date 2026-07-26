@@ -42,19 +42,26 @@ var app = builder.Build();
 using (var scope = app.Services.CreateScope())
 {
     var services = scope.ServiceProvider;
+    var logger = services.GetRequiredService<ILogger<Program>>();
+
     try
     {
-        // Apply migrations and create databases if they don't exist
+        // Apply migrations for Identity context
+        logger.LogInformation("Applying migrations to ApplicationDbContext...");
         var identityContext = services.GetRequiredService<ApplicationDbContext>();
         identityContext.Database.Migrate();
+        logger.LogInformation("ApplicationDbContext migrations completed successfully.");
 
+        // Apply migrations for Movie context
+        logger.LogInformation("Applying migrations to MovieDbContext...");
         var movieContext = services.GetRequiredService<MovieDbContext>();
         movieContext.Database.Migrate();
+        logger.LogInformation("MovieDbContext migrations completed successfully.");
     }
     catch (Exception ex)
     {
-        var logger = services.GetRequiredService<ILogger<Program>>();
-        logger.LogError(ex, "An error occurred while seeding the database.");
+        logger.LogError(ex, "An error occurred while applying migrations to the database. Application will not start correctly.");
+        throw; // Re-throw to prevent application from starting with incomplete database
     }
 }
 
