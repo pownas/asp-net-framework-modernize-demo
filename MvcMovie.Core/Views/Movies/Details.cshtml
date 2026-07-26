@@ -1,0 +1,21 @@
+﻿@model MvcMovie.Core.Models.Movie
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Movie Details</h2>
+
+<div class="card">
+    <div class="card-body">
+        <h5 class="card-title">@Model.Title</h5>
+        <p class="card-text">
+            <strong>Release Date:</strong> @Model.ReleaseDate.ToString("yyyy-MM-dd")<br />
+            <strong>Genre:</strong> @Model.Genre<br />
+            <strong>Price:</strong> $@Model.Price
+        </p>
+        <a asp-controller="Movies" asp-action="Edit" asp-route-id="@Model.ID" class="btn btn-warning">Edit</a>
+        <a asp-controller="Movies" asp-action="Delete" asp-route-id="@Model.ID" class="btn btn-danger">Delete</a>
+        <a asp-controller="Movies" asp-action="Index" class="btn btn-secondary">Back to List</a>
+    </div>
+</div>

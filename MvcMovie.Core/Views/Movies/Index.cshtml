@@ -1,0 +1,39 @@
+﻿@model IEnumerable<MvcMovie.Core.Models.Movie>
+
+@{
+    ViewBag.Title = "Movies";
+}
+
+<h2>Movies</h2>
+
+<p>
+    <a asp-controller="Movies" asp-action="Create" class="btn btn-primary">Create New</a>
+</p>
+
+<table class="table table-striped">
+    <thead class="table-dark">
+        <tr>
+            <th>Title</th>
+            <th>Release Date</th>
+            <th>Genre</th>
+            <th>Price</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Title</td>
+                <td>@item.ReleaseDate.ToString("yyyy-MM-dd")</td>
+                <td>@item.Genre</td>
+                <td>@item.Price</td>
+                <td>
+                    <a asp-controller="Movies" asp-action="Edit" asp-route-id="@item.ID" class="btn btn-sm btn-warning">Edit</a>
+                    <a asp-controller="Movies" asp-action="Details" asp-route-id="@item.ID" class="btn btn-sm btn-info">Details</a>
+                    <a asp-controller="Movies" asp-action="Delete" asp-route-id="@item.ID" class="btn btn-sm btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

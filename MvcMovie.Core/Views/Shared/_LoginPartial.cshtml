@@ -1,0 +1,27 @@
+﻿@using System.Security.Principal
+
+<ul class="navbar-nav">
+    @if (User.Identity?.IsAuthenticated == true)
+    {
+        <li class="nav-item">
+            <span class="navbar-text mr-3">Hello, @User.Identity?.Name!</span>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" asp-controller="Manage" asp-action="Index">Manage</a>
+        </li>
+        <li class="nav-item">
+            <form asp-controller="Account" asp-action="LogOff" method="post" style="display: inline;">
+                <button type="submit" class="btn btn-link nav-link">Log Off</button>
+            </form>
+        </li>
+    }
+    else
+    {
+        <li class="nav-item">
+            <a class="nav-link" asp-controller="Account" asp-action="Register">Register</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" asp-controller="Account" asp-action="Login">Log In</a>
+        </li>
+    }
+</ul>
