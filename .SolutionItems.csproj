@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.Build.NoTargets/3.7.0">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <IsPackable>false</IsPackable>
+    <GenerateDependencyFile>false</GenerateDependencyFile>
+  </PropertyGroup>
+
+  <ItemGroup Label="Include BLOBs">
+    <None Include="*\**" Exclude="**\bin\**;**\obj\**;**\.git\**;**\.vs\**" />
+    <None Include="docs\**\*.md" />
+    <None Include="wiki\**\*.md" />
+  </ItemGroup>
+
+  <ItemGroup Label="Remove BLOBs">
+    <None Remove="**\*.cs" />
+    <None Remove="BookCatalog.Web*\**\*.*" />
+    <None Remove="MvcMovie\**\*.*" />
+    <None Remove="MvcMovie.Core\**\*.*" />
+  </ItemGroup>
+</Project>
