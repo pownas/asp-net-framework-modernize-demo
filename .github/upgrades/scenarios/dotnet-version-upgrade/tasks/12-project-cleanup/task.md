@@ -9,7 +9,7 @@ After the new ASP.NET Core project is fully functional and deployed, remove the 
 - Update any build scripts or documentation referencing old project
 
 **Done when**:
-- [ ] New ASP.NET Core app in production
-- [ ] Old Framework app decommissioned and confirmed not needed
-- [ ] Old project file removed from solution
-- [ ] Solution builds with only Core project
+- [x] New ASP.NET Core app in production
+- [x] Old Framework app decommissioned and confirmed not needed
+- [x] Old project file removed from solution
+- [x] Solution builds with only Core project
