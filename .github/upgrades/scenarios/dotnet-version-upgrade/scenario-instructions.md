@@ -30,3 +30,15 @@
 - **Date**: 2026-07-26 22:22
 - **Decision**: Side-by-side web migration with direct System.Web API migration and simultaneous EF Core migration
 - **Rationale**: User chose cleaner, more modern approach over incremental adapters and sequential EF migration
+
+## Strategy
+**Selected**: All-at-Once Side-by-Side Web Migration  
+**Rationale**: Single web project allows atomic upgrade with side-by-side deployment; direct System.Web → ASP.NET Core API migration + simultaneous EF Core migration will produce clean, modern codebase at completion. High complexity (537 System.Web issues, OWIN middleware, Identity + OAuth) is manageable with this approach.
+
+### Execution Constraints
+- Old and new projects run side-by-side; YARP reverse proxy routes requests from new app to old app for unmigrated features during transition
+- Direct System.Web → ASP.NET Core API migration without compatibility adapters; no cleanup pass needed
+- EF6 → EF Core migration must complete before new data-access code is tested; both migrations are in-phase (simultaneous upgrade)
+- Solution must build cleanly after each task before proceeding; all tests must pass before old project can be decommissioned
+- Phase 1 (Preparation) must complete before Phase 2 starts; each subsequent phase depends on prior phases completing
+- Git commit after each completed task for incremental progress tracking
