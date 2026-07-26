@@ -14,8 +14,8 @@
   - Completed
   - Subtasks: None
 
-- 🔵 **02-dependencies-modernize**: Update NuGet packages and resolve incompatibilities
-  - Pending
+- ✅ **02-dependencies-modernize**: Update NuGet packages and resolve incompatibilities
+  - Completed
   - Subtasks: None
 
 - 🔵 **03-dbcontext-migrate**: Migrate Entity Framework 6 DbContext to EF Core
