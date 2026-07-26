@@ -1,4 +1,5 @@
 <Solution>
   <Project Path=".SolutionItems.csproj" />
+  <Project Path="MvcMovie.Core/MvcMovie.Core.csproj" />
   <Project Path="MvcMovie/MvcMovie.csproj" />
 </Solution>
